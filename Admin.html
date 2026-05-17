@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <nav class='navbar'>
+      <div class='nav-links' id="navLinks">
+        <a href="Index.html">Home</a>
+        <a href="Courses.html">Courses </a>
+        <a href="Attendance.html">Attendance </a>
+        <a href="Admin.html">Admin</a>
+        <a href='About.html'>About</a>
+    </div>
+    
+    <div class="menu-btn" id="menuBtn">
+     ☰
+   </div>
+    <h2> Smarteddance</h2>
+    
+    <button id="themeBtn">
+  🌙
+</button>
+    </nav>
+
+    <h1 class="abt"> Admin Dashboard</h1>
+
+    
+    <div class="contact-form" id="form">
+        <h2>Login</h2>
+         <input type="text" placeholder="Input your username" id="adminName" required> 
+        <input type="password" placeholder="Input your password" id="adminPass" required>
+        <button onclick="loginAdmin()">Login</button>
+
+        <p id="formMsg"></p>
+    </div>
+
+<div id="dashboard" style="display: none;">
+     <div class="table-container">
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Matric</th>
+            <th>Course</th>
+            <th>Session</th>
+            <th>Lecturer</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+      </table>
+    </div>
+</div>
+ 
+
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Student Attendance system </title>
+    <link rel="stylesheet" href='styles.css'>
+  </head>
+  <body>
+
+    <nav class='navbar'>
+      <div class='nav-links' id="navLinks">
+        <a href="Index.html">Home</a>
+        <a href="Courses.html">Courses </a>
+        <a href="Attendance.html">Attendance </a>
+        <a href="Admin.html">Admin</a>
+        <a href='About.html'>About</a>
+    </div>
+    
+    <div class="menu-btn" id="menuBtn">
+     ☰
+   </div>
+    <h2> Smarteddance</h2>
+    
+    <button id="themeBtn">
+  🌙
+</button>
+
+    </nav>
+ 
+  <section class="hero" id="hero">
+    <h1 class="crc">Fill the required information  </h1>
+  </section>
+  
+  <h2 id="displayCourse"></h2>
+  
+<div class="fac-card">
+  <div class='card1'>
+    <h1 class="cahd">Select a Session</h1>
+    <select id="session" class="selc">
+      <option value=""> Select a Session</option>
+      
+      <option value="Morning">Morning </option>
+      
+      <option value="Afternoon">Afternoon</option>
+      
+      <option value="Evening">Evening </option>
+      </select>
+    </div>
+    
+  <div class='card1'>
+    <h1 class="cahd">Select a Lecturer</h1>
+    <select id="lecturer" class="selc">
+      <option value=""> Select a lecturer</option>
+      
+      <option value="Prof. Fagboya">Prof. fagboya</option>
+      
+      <option value="Prof. Alade">Prof Alade</option>
+      
+      <option value="Prof. Olakunle">Prof. Olakunle  </option>
+      
+      <option value="Prof. Fisayo">Prof. Fisayo</option>
+      </select>
+    </div>
+    
+  <div class='card1'>
+    <h1 class="cahd">Input your Name and Matric number</h1>
+     <form>
+      <input type="text" placeholder="Enter your name.." class="inm" id="name">
+      
+      <input type="text" placeholder="Enter your matric number " class="inm" id="matric">
+    </form>
+    </div>
+    
+    <div class='card1'>
+      <h1 class="cahd">Select a Department </h1>
+   <select id="department" class="selc">
+     <option value=""> Select a Department </option>
+     
+     <option value="Computer science">Computer Science</option>
+     
+     <option value="Software Engineer ">Software Engineer </option>
+     
+     <option value="Cybersecurity">Cybersecurity </option>
+     
+     <option value="Microbiology">Microbiology</option>
+     
+     <option value="Chemistry">Chemistry</option>
+     
+     <option value="Mathematics">Mathematics</option>
+
+     <option value="Physics with Electronics">Physics with electronics </option>
+     
+     <option value="Statistics">Statistics</option>
+     
+     <option value="Biology">Biology</option>
+     
+     <option value="Biochemistry">Biochemistry</option>
+     
+     <option value="Architecture Technology/Architecture">Architecture Technology /Architecture</option>
+     
+     <option value="Surveying and Geoinformations"> Surveying and Geoinformations</option>
+     
+     <option value="Industrial Design">Industrial Design </option>
+     
+     <option value="Urban & Regional Planning">
+       Urban & Regional Planning
+     </option>
+     
+     <option value="Soil Science ">Soil Science</option>
+     
+     <option value="Crop Science">Crop Science</option>
+     
+     <option value="Horticulture and landscape management">Horticulture and landscape management </option>
+     
+     <option value="Plant and Environmental Biology">Plant and Environmental Biology</option>
+     
+     <option value="Animals Science">Animal Science</option>
+     
+     <option value="Fisheries and Aquaculture Management">Fisheries and Aquaculture Management </option>
+     
+     <option value="Forestry and wildlife management">Forestry and Wildlife management</option>
+     
+     <option value="Environmental management and Toxicology">Environmental management and Toxicology</option>
+     
+     <option value="Agriculture and Biosytems Engineering">Agriculture and Biosystems Engineering</option>
+     
+     <option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+     
+     <option value="Biomedical Engineering">Biomedical Engineering</option>
+     
+     <option value="Mechatronics Engineering">Mechatronics Engineering </option>
+     
+     <option value="Mechanical Engineering">Mechanical Engineering</option>
+     
+     <option value="Food science and Technology">Civil Engineering</option>
+     
+     <option value="Crop Science">Agricultural Economics </option>
+     
+     <option value="Agribusiness">Agribusiness</option>
+     
+     <option value="Agricultural extension and rural development">Agricultural extension and rural development</option>
+     
+     <option value="Human Nutrition and dietetics">Human Nutrition and dietetics</option>
+     
+     <option value="Hospitality and Tourism management">Hospitality and Tourism management</option>
+   </select>
+ </div>
+    </div>
+    
+    <div class='parent'>
+  <button onclick="submitAttendance()">Submit</button>
+</div>
+
+    
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
